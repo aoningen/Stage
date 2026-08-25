@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\Stage\\Stage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Stage.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp",
               "RelativeDocumentMoniker": "Stage.cpp",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAgwCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-25T08:13:50.981Z",
               "EditorCaption": ""
