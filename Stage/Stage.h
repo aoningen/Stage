@@ -23,11 +23,3 @@ private:
 	//ステージの位置
 	VECTOR position;
 };
-
-Stage::Stage()
-{
-}
-
-Stage::~Stage()
-{
-}

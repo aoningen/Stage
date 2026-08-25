@@ -259,7 +259,8 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\shared\\pshpack1.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\shared\\poppack.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\um\\dpa_dsa.h",
-            "c:\\users\\student\\desktop\\stage\\dxlib_h\\dxfunctionwin.h"
+            "c:\\users\\student\\desktop\\stage\\dxlib_h\\dxfunctionwin.h",
+            "c:\\users\\student\\desktop\\stage\\stage\\stage.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
