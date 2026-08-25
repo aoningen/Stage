@@ -1,6 +1,8 @@
 #pragma once
 #include "DxLib.h"
 
+const int STAGE_MODEL_NUM = 2;
+
 class Stage
 {
 public:
@@ -18,8 +20,8 @@ public:
 
 private:
 	//ステージの3Dモデル
-	int modelHandle;
+	int modelHandle[STAGE_MODEL_NUM];
 
 	//ステージの位置
-	VECTOR position;
+	VECTOR position[STAGE_MODEL_NUM];
 };

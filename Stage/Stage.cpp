@@ -2,53 +2,69 @@
 
 Stage::Stage()
 {
-	//初期値
-	modelHandle = -1;
-	position = VGet(0.0f, 0.0f, 0.0f);
+    // モデルハンドルを初期化
+    for (int i = 0; i < STAGE_MODEL_NUM; i++)
+    {
+        modelHandle[i] = -1;
+    }
+
+    // 各ステージパーツの位置
+    position[0] = VGet(0.0f, 0.0f, 0.0f);
+    position[1] = VGet(1000.0f, 0.0f, 0.0f);
 }
 
 Stage::~Stage()
 {
-	//モデルが読み込まれていたら削除
-	if (modelHandle != -1)
-	{
-		MV1DeleteModel(modelHandle);
-	}
+    // モデルを削除
+    for (int i = 0; i < STAGE_MODEL_NUM; i++)
+    {
+        if (modelHandle[i] != -1)
+        {
+            MV1DeleteModel(modelHandle[i]);
+        }
+    }
 }
 
 bool Stage::Load()
 {
-	//3Dモデルを読み込む
-	modelHandle = MV1LoadModel("Stage/Stage01.mv1");
+    // ステージモデルを読み込む
+    modelHandle[0] =
+        MV1LoadModel("Stage/Stage00.mv1");
 
-	//読み込み失敗
-	if (modelHandle == -1)
-	{
-		return false;
-	}
-	//モデルの位置を設定
-	MV1SetPosition(modelHandle, position);
+    modelHandle[1] =
+        MV1LoadModel("Stage/Stage01.mv1");
 
-	return true;
-}
+    //modelHandle[2] =
+    //    MV1LoadModel("Data/Stage03.mv1");
 
-void Stage::SetPosition(VECTOR pos)
-{
-	position = pos;
-	//モデルが読み込まれている場合
-	if (modelHandle != -1)
-	{
-		MV1SetPosition(modelHandle, position);
-	}
+    // 読み込みチェック
+    for (int i = 0; i < STAGE_MODEL_NUM; i++)
+    {
+        if (modelHandle[i] == -1)
+        {
+            return false;
+        }
+    }
+
+    // 各モデルを配置
+    for (int i = 0; i < STAGE_MODEL_NUM; i++)
+    {
+        MV1SetPosition(
+            modelHandle[i],
+            position[i]
+        );
+    }
+
+    return true;
 }
 
 void Stage::Draw()
 {
-	//モデルが読み込まれていなければ何もしない
-	if (modelHandle == -1)
-	{
-		return;
-	}
-	//3Dモデルを描画
-	MV1DrawModel(modelHandle);
+    for (int i = 0; i < STAGE_MODEL_NUM; i++)
+    {
+        if (modelHandle[i] != -1)
+        {
+            MV1DrawModel(modelHandle[i]);
+        }
+    }
 }
