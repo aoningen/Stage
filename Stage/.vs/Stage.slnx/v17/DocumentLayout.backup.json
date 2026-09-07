@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Stage.cpp",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp",
               "RelativeToolTip": "Stage.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-25T08:14:06.932Z",
               "EditorCaption": ""
@@ -45,9 +45,10 @@
               "RelativeDocumentMoniker": "Stage.h",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h",
               "RelativeToolTip": "Stage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T08:14:00.339Z"
+              "WhenOpened": "2026-08-25T08:14:00.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwAgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-25T08:13:50.981Z"
+              "WhenOpened": "2026-08-25T08:13:50.981Z",
+              "EditorCaption": ""
             }
           ]
         }
