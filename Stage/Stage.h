@@ -1,5 +1,6 @@
 #pragma once
 #include "DxLib.h"
+#include "Object3D.h"
 
 const int STAGE_MODEL_NUM = 2;
 
@@ -18,10 +19,13 @@ public:
 	//ステージを描画
 	void Draw();
 
+	bool CheckCollision(VECTOR playerPosition, float playerRadius);
 private:
 	//ステージの3Dモデル
 	int modelHandle[STAGE_MODEL_NUM];
 
 	//ステージの位置
 	VECTOR position[STAGE_MODEL_NUM];
+
+	Object3D* objects[OBJECT_NUM];
 };

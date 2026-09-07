@@ -13,6 +13,7 @@ public:
 
 	void Draw();
 
+
 private:
 	int modelHandle;
 	VECTOR position;
