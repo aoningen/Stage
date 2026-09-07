@@ -1,5 +1,8 @@
 #pragma once
 #include "DxLib.h"
+
+const int OBJECT_NUM = 10;
+
 class Object3D
 {
 public:

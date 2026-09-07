@@ -1,0 +1,52 @@
+#include "Object3D.h"
+
+Object3D::Object3D():modelHandle(-1),position(VGet(0.0f,0.0f,0.0f)),collisionRadius(0.0f)
+{
+}
+
+Object3D::~Object3D()
+{
+	if (modelHandle != -1)
+	{
+		MV1DeleteModel(modelHandle);
+	}
+}
+
+bool Object3D::Load(const char* fileName, float radius)
+{
+	//3DÉÇÉfÉãÇÃì«Ç›çûÇ›
+	modelHandle = MV1LoadModel(fileName);
+	if (modelHandle == -1)
+	{
+		return false;
+	}
+	collisionRadius = radius;
+	return true;
+}
+
+void Object3D::SetPosition(VECTOR pos)
+{
+	position = pos;
+	if (modelHandle != -1)
+	{
+		MV1SetPosition(modelHandle, position);
+	}
+}
+
+VECTOR Object3D::GetPositon() const
+{
+	return position;
+}
+
+float Object3D::GetCollisionRadius() const
+{
+	return collisionRadius;
+}
+
+void Object3D::Draw()
+{
+	if (modelHandle != -1)
+	{
+		MV1DrawModel(modelHandle);
+	}
+}

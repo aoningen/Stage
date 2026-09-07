@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\Stage\\Stage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Object3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|solutionrelative:Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED68187-E487-43CF-AEA2-797F82B563E0}|Stage.vcxproj|C:\\Users\\student\\Desktop\\Stage\\Stage\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -47,20 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Object3D.h",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Object3D.h",
               "RelativeDocumentMoniker": "Object3D.h",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Object3D.h",
               "RelativeToolTip": "Object3D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-09-07T05:26:07.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Stage.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.cpp",
               "RelativeDocumentMoniker": "Stage.cpp",
@@ -73,15 +73,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Stage.h",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h",
               "RelativeDocumentMoniker": "Stage.h",
               "ToolTip": "C:\\Users\\student\\Desktop\\Stage\\Stage\\Stage.h",
               "RelativeToolTip": "Stage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-08-25T08:14:00.339Z"
+              "WhenOpened": "2026-08-25T08:14:00.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
